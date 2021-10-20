@@ -1,0 +1,255 @@
+body{
+  margin: 0;
+  font-family: Arial;
+  background: #fff;
+}
+header{
+  width: 65%;
+  margin: 20px auto;
+  background-color: lavenderblush;
+  padding: 10px 10px 10px;
+  box-shadow: 10px 10px 15px #000;
+}
+#title{
+  font-family: Georgia, serif;;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto 10px;
+  width: 90%;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 100;
+  text-shadow: 7px 3px 8px #000;
+}
+#main{
+  width: 70%;
+  margin: 00 auto 10px;
+  background-color: lavenderblush;
+  padding: 20px 10px 10px;
+}
+#title h2{
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+#title h1{
+  word-spacing: 8px;
+  margin: 0 auto;
+  letter-spacing: 12px;
+  padding-top: 15px;
+}
+#title h1 span, #title h2 span{
+  font-size: 60px;
+  font-weight: bolder;
+}
+#img-div{
+  text-align: center;
+}
+#image{
+  width: 100%;
+  max-width: 1025;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+#img-caption{
+  font-size: 20px;
+  margin: 0px auto 0px;
+}
+#section-1{
+   width: 70%;
+  margin: 20px auto;
+  background-color: lavenderblush;
+  padding: 10px 10px 00;
+}
+#tribute-info p{
+  font-size: 20px;
+  text-align: justify;
+  width: 90%;
+  margin: 00 auto 00px;
+  padding-bottom: 15px;
+}
+#tribute-info a{
+  text-decoration: none;
+  color: darkblue;
+}
+#tribute-info a:hover{
+  color:chocolate;
+}
+#section-2{
+   width: 70%;
+  margin: 20px auto;
+  background-color: lavenderblush;
+  padding: 10px 10px 00;
+}
+.personal-life{
+  background: rgba(65, 176, 190, 0.671);
+}
+.achievement{
+  background: #0ff;
+}
+.container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.container div{
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+.container div h3{
+  text-align: center;
+  font-size: 24px;
+}
+ul li{
+  font-size: 17px;
+  margin: 5px;
+  padding: 5px;
+}
+.container div p{
+  font-size: 17px;
+  text-align:justify;
+}
+ul{
+  text-align: left;
+  list-style-type: none;
+}
+
+.container div span{
+  font-weight: bold;
+}
+footer hr{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+footer p{
+  margin-top: 4px;
+  text-align: right;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* responsive layout
+ Screen width 803 
+  pixels or less
+*/
+
+@media(max-width: 803px){
+  header{
+      width: 100%;
+  }    
+  #title{font-size: 12px}
+  #title h1 span, #title h2 span{
+      font-size: 20px;
+  }
+ #main{
+      width: 100%;
+  }
+  #img-div{
+      width: 100%;
+      height: 75%;
+  }
+  #image{
+      width: 100%;
+      height: auto;
+  }
+  #img-caption{
+      font-size: 15px;
+  }
+  #section-1{
+      width: 100%;
+  }
+  #tribute-info p{
+      font-size: 16px;
+  }
+  #section-2{
+      width: 100%;
+  }
+  .container div h3{
+      font-size: 18px;
+  }
+  .container div p, ul li{
+      font-size: 15px
+  }
+  .container{
+      grid-column-gap: 5px;
+  }
+}
+
+
+/* responsive layout
+ Screen width 400 
+  pixels or less
+*/
+
+@media(max-width: 400px){
+      header{
+      width: 100%;
+  }    
+  #title{font-size: 10px}
+  #title h1 span, #title h2 span{
+      font-size: 25px;
+  }
+ #main{
+      width: 100%;
+  }
+  #img-div{
+      width: 100%;
+      height: 75%;
+  }
+  #image{
+      width: 100%;
+      height: auto;
+  }
+  #img-caption{
+      font-size: 15px;
+  }
+  #section-1{
+      width: 100%;
+  }
+  #tribute-info p{
+      font-size: 16px;
+  }
+  #section-2{
+      width: 100%;
+  }
+  .container div h3{
+      font-size: 18px;
+  }
+  .container div p, ul li{
+      font-size: 15px
+  }
+  .container{
+      display: grid;
+      width:100%;
+      margin-right: 20px;
+      grid-template-columns: 100%;
+  }
+  .personal-life, .achievement{
+      margin: inherit auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
